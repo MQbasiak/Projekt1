@@ -1,5 +1,11 @@
-package org.example;public class Main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Calculator calculator = new Calculator();
+        System.out.println(calculator.add(4,2));
+        System.out.println(calculator.sub(4, 5.5));
+
+
     }
 }
