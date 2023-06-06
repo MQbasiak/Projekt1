@@ -2,11 +2,19 @@ package org.example;
 
 public class Calculator {
 
-    public int add(int x, int y){
+    public double add(double x, double y) {
         return x + y;
     }
 
-    public double sub(double x, double y){
+    public double sub(double x, double y) {
         return x - y;
+    }
+
+    public double mul(double x, double y) {
+        return x * y;
+    }
+
+    public double div(double x, double y) {
+        return x / y;
     }
 }
